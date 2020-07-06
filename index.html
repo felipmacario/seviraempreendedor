@@ -12,7 +12,27 @@
   integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
   <link rel="stylesheet" href="estilo.css" />
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
-
+  
+  <script type="text/javascript" src="js/bioep.js"></script>
+    <script type="text/javascript">
+      bioEp.init({
+        html: '<div id="bio_ep_content">' +
+        '<img src="js/png-computer-icons-question-mark-orange-question-mark-text-logo-computer-wallpaper-wikimedia-commons-clipart" alt="E a live? Vai perder mesmo?" />' +
+        '<span>E a live? Vai perder mesmo?</span>' +
+        '<span>Clica na botão abaixo para se inscrever na live!</span>' +
+        '<span>Corre para não perder!!</span>' +
+        '<a href="https://seviraempreendedor.com" class="bio_btn">QUEO ASSISTIR A LIVE!</a>' +
+        '</div>',
+        css: '#bio_ep {width: 400px; height: 300px; color: white; background-color: orange; text-align: center;}' +
+        '#bio_ep_content {padding: 24px 0 0 0; font-family: "Titillium Web";}' +
+        '#bio_ep_content span:nth-child(2) {display: block; color: white; font-size: 32px; font-weight: 600;}' +
+        '#bio_ep_content span:nth-child(3) {display: block; font-size: 16px;}' +
+        '#bio_ep_content span:nth-child(4) {display: block; margin: -5px 0 0 0; font-size: 16px; font-weight: 600;}' +
+        '.bio_btn {display: inline-block; margin: 18px 0 0 0; padding: 7px; color: black; font-size: 14px; font-weight: 600; background-color: white; border: 1px solid black cursor: pointer; -webkit-appearance: none; -moz-appearance: none; border-radius: 0; text-decoration: none;}',
+        fonts: ['//fonts.googleapis.com/css?family=Titillium+Web:300,400,600'],
+        cookieExp: 0
+    });
+    </script>
 
 </head>
 
