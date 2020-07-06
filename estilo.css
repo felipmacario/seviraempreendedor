@@ -12,10 +12,10 @@ body {
   line-height: 59px;
   display: flex;
   align-items: center;
-  text-align: right;
   color: #DE5915;
   margin-top: 8%;
   margin-right: 2%;
+  text-align: center;
 }
 
 .texto{
@@ -25,16 +25,14 @@ body {
   font-size: 30px;
   line-height: 44px;
   display: flex;
-  align-items: center;
-  text-align: right;
   color: #000000;
   margin-top: 2%;
   margin-right: 2%;
+  text-align: center;
 }
 
 .container-redes-sociais{
   display: flex;
-  justify-content: flex-end;
   margin-top: 3%;
 }
 
@@ -137,24 +135,34 @@ h3 {
     display: flex;
   }
 
-.card-header {
-    font-family: Montserrat-Bold;
+  .card-text{
+    font-family: 'Montserrat', sans-serif;
     font-style: normal;
-    font-weight: 800;
-    font-size: 34px;
-    line-height: 41px;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
     display: flex;
     align-items: center;
     color: #FFFFFF;
-    margin-top: 20px;
-    margin-left: 20px;
-    margin-right: 20px;
+  }
+
+.card-header {
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 44px;
+  display: flex;
+  align-items: center;
+  color: #FFFFFF;
+  display: flex;
+  justify-content: center;
 }
 
 .card-body {
     margin-left: 20px;
     margin-right: 20px;
-    font-family: Montserrat-Light;
+    font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 300;
     font-size: 22px;
@@ -162,13 +170,14 @@ h3 {
     display: flex;
     align-items: center;
     color: #FFFFFF;
+    display: block;
 }
 
 
 .card-footer {
     margin-left: 20px;
     margin-right: 20px;
-    font-family: Montserrat-Light;
+    font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 800;
     font-size: 34px;
@@ -192,7 +201,7 @@ h3 {
 }
 
 .info {
-    font-family: Montserrat-Light;
+  font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 800;
     font-size: 26px;
@@ -202,6 +211,13 @@ h3 {
     text-align: center;
     color: #FFFFFF;
     margin-bottom: 20px;
+}
+
+.boton{
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  color: #FFFFFF;
+
 }
 
 
