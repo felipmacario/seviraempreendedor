@@ -13,12 +13,29 @@ body {
   font-weight: bold;
   font-size: 42px;
   line-height: 59px;
-  display: flex;
   align-items: center;
   color: #DE5915;
   margin-top: 8%;
   margin-right: 2%;
   text-align: center;
+}
+
+.titulo-tnks{
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 59px;
+  align-items: center;
+  color: #DE5915;
+  margin-top: 8%;
+  margin-right: 2%;
+  text-align: center;
+}
+
+.compartilhar{
+  display: flex;
+  justify-content: center
 }
 
 .texto{
@@ -32,13 +49,17 @@ body {
   margin-top: 2%;
   margin-right: 2%;
   text-align: center;
-  justify-content: center
+  justify-content: center;
+  margin-top: 5%;
 }
 
 .container-redes-sociais{
   display: flex;
-  margin-top: 3%;
+  margin-top: 1%;
+  margin-bottom: 1%;
 }
+
+
 
 
 
@@ -64,6 +85,12 @@ h3 {
 
   .logosemfundo {
     width: 50%;
+    display: flex;
+    margin-left: 25%
+  }
+
+  .logosemfundo-tnks {
+    width: 20%;
     display: flex;
     margin-left: 25%
   }
@@ -109,7 +136,12 @@ h3 {
 .rodape {
   display: flex;
   background-color: #E2781E;
+}
 
+.rodape-tnks{
+  display: flex;
+  background-color: #E2781E;
+  justify-content: flex-end
 }
 
 .facebook {
