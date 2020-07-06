@@ -3,6 +3,9 @@ body {
 
 }
 
+.container-mensagem{
+  margin-bottom: 5%;
+}
 
 .titulo{
   font-family: 'Montserrat', sans-serif;
@@ -24,11 +27,12 @@ body {
   font-weight: normal;
   font-size: 30px;
   line-height: 44px;
-  display: flex;
+  display: flex !important;
   color: #000000;
   margin-top: 2%;
   margin-right: 2%;
   text-align: center;
+  justify-content: center
 }
 
 .container-redes-sociais{
