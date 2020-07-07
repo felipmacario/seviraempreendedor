@@ -20,6 +20,27 @@ body {
  
 }
 
+@media (min-width: 576px){
+  .titulo{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 59px;
+    text-align: right;
+    color: #DE5915;
+    margin-top: 25%;
+    margin-right: 2%;
+   }
+
+
+}
+
+#cadastro{
+  display: block;
+  align-items: center;
+}
+
 .cronometro{
   display: flex;
   justify-content: center;
@@ -466,4 +487,5 @@ h5{
   color: #DE5915;
 
 }
+
 
