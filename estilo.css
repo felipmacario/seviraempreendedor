@@ -11,7 +11,7 @@ body {
   font-family: 'Montserrat', sans-serif;
   font-style: normal;
   font-weight: bold;
-  font-size: 35px;
+  font-size: 62px;
   line-height: 59px;
   text-align: right;
   color: #DE5915;
@@ -20,12 +20,12 @@ body {
  
 }
 
-@media (min-width: 576px){
+@media (min-width: 276px){
   .titulo{
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: bold;
-    font-size: 35px;
+    font-size: 40px;
     line-height: 59px;
     text-align: right;
     color: #DE5915;
